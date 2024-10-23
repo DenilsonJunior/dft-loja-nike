@@ -1,0 +1,159 @@
+include templates/imports
+
+doctype html
+html(lang="pt-br")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title Estrutura Dafiti
+        link(rel="stylesheet" href="styles/main.css")
+        link(rel="stylesheet", href="external/style.css")
+    
+    body
+        .dafitiStructure
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+            +headerLojaEspecial('https://dafitistatic.dafiti.com.br/cms/loja-nike/2024_10_23_09_46_00_Variant172.png', '')
+            
+            +bannerTree(
+                [
+                    { 
+                        img: 'https://dafitistatic.dafiti.com.br/cms/loja-nike/2024_10_23_09_16_19_Property_1=Variant2.jpg', 
+                        alt: '' 
+                    },
+                    { 
+                        img: 'https://dafitistatic.dafiti.com.br/cms/loja-nike/2024_10_23_09_16_17_Property_1=Variant2_(1).jpg', 
+                        alt: '' 
+                    },
+                    { 
+                        img: 'https://dafitistatic.dafiti.com.br/cms/loja-nike/2024_10_23_09_16_15_Property_1=Variant2_(2).jpg', 
+                        alt: '' 
+                    }
+                ],
+                'MUNDO NIKE DO SEU JEITO',
+                'https://dafitistatic.dafiti.com.br/cms/loja-nike/2024_10_23_09_46_00_Variant172.png',
+                'Logotipo Nike'
+            )
+
+            .gradientView
+
+                +tendenciesTree(
+                    'O MELHOR DA <b>NIKE</b>',
+                    [
+                        {
+                            "link": "",
+                            "img": "https://dafitistatic.dafiti.com.br/cms/loja-nike/2024_10_23_09_16_13_FOTO.jpg",
+                            "alt": "",
+                            "title": "dia-a-dia",
+                            "text": ""
+                        },
+                        {
+                            "link": "",
+                            "img": "https://dafitistatic.dafiti.com.br/cms/loja-nike/2024_10_23_09_16_11_FOTO_(1).jpg",
+                            "alt": "",
+                            "title": "streetwear",
+                            "text": ""
+                        },
+                        {
+                            "link": "",
+                            "img": "https://dafitistatic.dafiti.com.br/cms/loja-nike/2024_10_23_09_16_09_correr.jpg",
+                            "alt": "",
+                            "title": "pra curtir e sair",
+                            "text": ""
+                        }
+                    ]
+                )
+
+                +tendenciesTwo(
+                    [
+                        {
+                            "link": "",
+                            "img": "https://dafitistatic.dafiti.com.br/cms/loja-nike/2024_10_23_09_16_07_Variant3.jpg",
+                            "alt": "",
+                            "title": "TOPS",
+                            "text": ""
+                        },
+                        {
+                            "link": "",
+                            "img": "https://dafitistatic.dafiti.com.br/cms/loja-nike/2024_10_23_09_16_05_Variant4.jpg",
+                            "alt": "",
+                            "title": "LEGGINGS",
+                            "text": ""
+                        }
+                    ]
+                )
+
+                +carrouselNike(
+                    [
+                        {
+                            "link": "#",
+                            "img": "https://dafitistatic.dafiti.com.br/cms/loja-nike/2024_10_23_13_54_08_image_82.png",
+                            "alt": "text alt",
+                            "text": "E-SERIES"
+                        },
+                        {
+                            "link": "#",
+                            "img": "https://dafitistatic.dafiti.com.br/cms/loja-nike/2024_10_23_13_54_06_image_76.png",
+                            "alt": "text alt",
+                            "text": "WINFLO 11"
+                        },
+                        {
+                            "link": "#",
+                            "img": "https://dafitistatic.dafiti.com.br/cms/loja-nike/2024_10_23_13_54_05_image_74.png",
+                            "alt": "text alt",
+                            "text": "COURT LEGACY"
+                        },
+                        {
+                            "link": "#",
+                            "img": "https://dafitistatic.dafiti.com.br/cms/loja-nike/2024_10_23_15_29_35_image_64.png",
+                            "alt": "text alt",
+                            "text": "COURT VISION"
+                        },
+                        {
+                            "link": "#",
+                            "img": "https://dafitistatic.dafiti.com.br/cms/loja-nike/2024_10_23_13_54_03_image_62.png",
+                            "alt": "text alt",
+                            "text": "AIR FORCE"
+                        },
+                        {
+                            "link": "#",
+                            "img": "https://dafitistatic.dafiti.com.br/cms/loja-nike/2024_10_23_13_54_02_image_66.png",
+                            "alt": "text alt",
+                            "text": "AIR MAX"
+                        },
+                        {
+                            "link": "#",
+                            "img": "https://dafitistatic.dafiti.com.br/cms/loja-nike/2024_10_23_13_54_00_image_68.png",
+                            "alt": "text alt",
+                            "text": "REVOLUTION"
+                        },
+                        {
+                            "link": "#",
+                            "img": "https://dafitistatic.dafiti.com.br/cms/loja-nike/2024_10_23_15_32_32_image_72.png",
+                            "alt": "text alt",
+                            "text": "TR13"
+                        },
+                        {
+                            "link": "#",
+                            "img": "https://dafitistatic.dafiti.com.br/cms/loja-nike/2024_10_23_13_53_58_image_78.png",
+                            "alt": "text alt",
+                            "text": "ZOOM BELLA"
+                        },
+                        {
+                            "link": "#",
+                            "img": "https://dafitistatic.dafiti.com.br/cms/loja-nike/2024_10_23_13_53_57_image_80.png",
+                            "alt": "text alt",
+                            "text": "GAMMA FORCE"
+                        }
+                    ]
+                )
+
+                +footerLojaEspecial(
+                    'SOBRE A <b>NIKE</b>',
+                    'A Nike é uma marca guiada por propósito, energizada por um compromisso de fazer o mundo avançar por meio do poder do esporte. Defendemos a diversidade e amplificamos as paixões individuais para levar inspiração e inovação a todos os atletas* do mundo.'
+                )
+
+    //- script(src="external/scripts.js")
+    script(src="js/script.js")

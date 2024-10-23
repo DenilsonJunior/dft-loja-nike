@@ -1,0 +1,11 @@
+mixin bannerTree(images, textUp, img, altText)
+    .bannerTreeTemplate
+        .boxbannerTree
+            .keen-slider#bannerTree(data-content-items)
+                each image in images
+                    .keen-slider__slide.number-slide
+                        img.card(src=image.img, alt=image.alt)
+
+            .boxText
+                h2.textUp!= textUp
+                img.logotipo(src=img, alt=altText)
