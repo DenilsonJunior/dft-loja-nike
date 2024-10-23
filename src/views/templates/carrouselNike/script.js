@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
         new KeenSlider("#carrouselNike", {
             loop: true,
             mode: "free",
-            slides: { origin: "auto", perView: isMobile ? 2 : 2.5, spacing: 30 },
+            slides: { origin: "auto", perView: isMobile ? 2 : 2.5, spacing: 10 },
             range: {
                 min: 0,
                 max: 0,
