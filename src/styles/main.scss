@@ -25,51 +25,6 @@
     padding: 0;
     display: flex;
     flex-direction: column;
-    background-color: white;
-
-    h1,
-    h2,
-    h3,
-    h4 {
-        font-family: "Poppins", sans-serif;
-        // font-weight: 700;
-        font-style: normal;
-        font-size: 1.5vw;
-        @media (max-width: 768px) {
-            font-size: 4vw;
-        }
-    }
-    
-    p, label, li {
-        font-family: "Poppins", sans-serif;
-        font-weight: 300;
-        font-style: normal;
-        line-height: 1.8vw;
-        font-size: 1.4vw;
-        @media (max-width: 1050px) {
-            font-size: 1.5vw;
-        }
-        @media (max-width: 768px) {
-            font-size: 4.5vw;
-            line-height: 5.5vw;
-        }
-    }
-
-    a {
-        p {
-            font-family: "Poppins", sans-serif;
-            font-weight: 700;
-            font-style: normal;
-            font-style: normal;
-        }
-    }
-
-    i {
-        font-style: italic;
-        b {
-            font-weight: bold;
-        }
-    }
 
     .gradientView {
         background-image: linear-gradient(#DBDBDB, #424242);

@@ -1,31 +1,33 @@
 .footerLojaEspecialTemplate {
     width: 100%;
-    padding: 0vw 7vw 5vw;
+    padding: 1vw 7vw 5vw;
     @media (max-width: 768px) {
-        padding: 5vw 7vw;
+        padding: 10vw 5vw;
     }
     .boxtitle {
+        margin: 0 auto;
         h2, p {
             font-family: "Poppins", sans-serif;
             color: #ffffff;
             text-align: center;
         }
         h2 {
-            font-weight: 500;
-            font-size: 2.6vw;
+            font-weight: 400;
+            font-size: 2.8vw;
             @media (max-width: 768px) {
-                font-size: 6vw;
+                font-size: 30px;
             }
             b {
                 font-weight: 700;
             }
         }
         p {
+            margin-top: 1.5vw;
             font-weight: 100;
             line-height: 1;
-            font-size: 1.8vw;
+            font-size: 1.6vw;
             @media (max-width: 768px) {
-                font-size: 3.5vw;
+                font-size: 17px;
             }
         }
     }

@@ -60,20 +60,21 @@
 
             .boxText {
                 position: absolute;
-                width: 25vw;
+                width: 23vw;
+                height: 23vw;
                 transform: rotate(270deg);
-                bottom: 11.8vw;
-                left: -8vw;
-                // background-color: #0005;
+                bottom: 3.5vw;
+                left: 3.4vw;
+            
                 @media (max-width: 768px) {
-                    left: -11.5vw;
-                    bottom: 18.1vw;
-                    width: 37vw;
+                    left: 3.5vw;
+                    bottom: 5vw;
                 }
                 h3 {
                     color: #F0F70D;
-                    font-size: 4.5vw;
+                    font-size: 4.2vw;
                     font-weight: 700;
+                    font-family: "Poppins", sans-serif;
                     @media (max-width: 768px) {
                         font-size: 6.5vw;
                     }
